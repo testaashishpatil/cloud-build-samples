@@ -18,8 +18,8 @@ steps:
     args: ['go', 'run', 'quickstart-automate/main.go']
 logsBucket: 'gs://mytseaashishpatillogs'
 #serviceAccount: 'projects/tse-aashishpatil/serviceAccounts/my-custombuild-sa@tse-aashishpatil.iam.gserviceaccount.com'
-options:
-  logging: GCS_ONLY
+#options:
+# logging: GCS_ONLY
 
 
 
